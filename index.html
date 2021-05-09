@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Dojo-Filters</title>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <h1>DOJO-FILTERS</h1>
+
+            <input type="file" id="inputFile" name="inputFile">
+
+            <div class="preview" id="imgPreview" >
+                <img class="img-preview" id="imgId" src="" alt="">
+                <span class="img-text">
+                    <img onclick = "imgClick()" id="profile" src="https://www.lifewire.com/thmb/P856-0hi4lmA2xinYWyaEpRIckw=/1920x1326/filters:no_upscale():max_bytes(150000):strip_icc()/cloud-upload-a30f385a928e44e199a62210d578375a.jpg" alt="">
+                </span>
+            </div>
+
+            <div class="filters">
+
+                <div class="">
+                    <p>Blur</p>
+                    <input onchange="ChangeFilter1()" id="Filter1" type="range" min="0" max="100" name=""  value="1">
+                </div>
+
+                <div class="">
+                    <p>Saturate</p>
+                    <input onchange="ChangeFilter2()" id="Filter2" type="range" min="0" max="100" name="" value="100">
+                </div>
+
+                <div class="">
+                    <p>Sepia</p>
+                    <input onchange="ChangeFilter3()" id="Filter3" type="range" min="0" max="100" name="" value="1">
+                </div>
+
+                <div class="">
+                    <p>Opacity</p>
+                    <input onchange="ChangeFilter4()" id="Filter4" type="range" min="0" max="100" name="" value="100">
+                </div>
+
+                <div class="">
+                    <p>Invert</p>
+                    <input onchange="ChangeFilter5()" id="Filter5" type="range" min="0" max="100" name="" value="1">
+                </div>
+        
+                <div class="">
+                    <p>Brightness</p>
+                    <input onchange="ChangeFilter6()" id="Filter6" type="range" min="0" max="100" name="" value="100">
+                </div> 
+
+            </div>
+
+        </div>
+
+        <script src="script.js" charset="utf-8"></script>
+        
+    </body>
+</html>

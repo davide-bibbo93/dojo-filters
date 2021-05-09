@@ -1,5 +1,7 @@
 # Dojo-Filters
 
+![ezgif com-gif-maker](https://github.com/davide-bibbo93/dojo-filters/blob/master/ezgif-6-9ec9c967afb0.gif)
+
 In questo esercizio post corso creeremo una interfaccia per applicare dei filtri css in tempo reale ad una immagine.
 
 Per poter affrontare questo esercizio sarà necessario saper utilizzare:
